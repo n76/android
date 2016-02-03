@@ -60,7 +60,7 @@
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="omap4-aosp" revision="aosp-4.4" groups="pdk" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="omap4-aosp" revision="aosp-4.4" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
