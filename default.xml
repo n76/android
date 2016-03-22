@@ -43,7 +43,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/espresso" name="android_device_samsung_espresso" groups="device,espresso" remote="omap4-aosp" revision="aosp-4.4" />
+  <project path="device/samsung/espressowifi" name="android_device_samsung_espressowifi" groups="device,espresso" remote="omap4-aosp" revision="aosp-4.4" />
   <project path="device/samsung/espresso3g" name="android_device_samsung_espresso3g" groups="device,espresso" remote="omap4-aosp" revision="aosp-4.4" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="omap4-aosp" revision="aosp-4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
