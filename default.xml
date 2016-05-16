@@ -8,7 +8,10 @@
   <remote  name="omap4-aosp"
            fetch="https://github.com/OMAP4-AOSP/" />
 
-  <default revision="refs/tags/android-6.0.1_r30"
+  <remote  name="n76"
+           fetch="https://github.com/n76" />
+
+  <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
 
@@ -260,7 +263,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="android_frameworks_av" remote="omap4-aosp" revision="aosp-6.0" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omap4-aosp" revision="aosp-6.0" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="n76" revision="aosp-6.0-microg" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
