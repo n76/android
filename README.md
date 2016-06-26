@@ -6,7 +6,7 @@ familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository use a command like this:
 
-    repo init -u git://github.com/OMAP4-AOSP/android.git -b <branch>
+    repo init -u git://github.com/OMAP4-AOSP/android.git -b aosp-6.0
 
 Then to sync up:
 
